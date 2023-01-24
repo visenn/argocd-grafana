@@ -1,7 +1,7 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: grafana-home-pvc
+  name: grafana-pvc
 spec:
   accessModes:
   - ReadWriteOnce
